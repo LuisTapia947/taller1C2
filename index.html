@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const titulo = document.createElement("h1")
+        titulo.innerText = "Bienvenido al sitio web de deadpool"
+        document.body.appendChild(titulo)
+
+        const parrafo1 = document.createElement("p")
+        parrafo1.innerText = "Explora las siguientes paginas para saber sobre deadpool y sus frases memorables"
+        document.body.appendChild(parrafo1)
+
+        const titulo2 = document.createElement("h2")
+        titulo2.innerText = "menu de navegacion"
+        document.body.appendChild(titulo2)
+
+
+        const ul = document.createElement("ul")
+
+        const li1 = document.createElement("li")
+        const a1 = document.createElement("a")
+        a1.href = "html/pagina1.html"
+        a1.textContent = "Frases memorables"
+        li1.appendChild(a1)
+        ul.appendChild(li1)
+
+        const li2 = document.createElement("li")
+        const a2 = document.createElement("a")
+        a2.href = "html/pagina2.html"
+        a2.textContent = "personajes principales"
+        li2.appendChild(a2)
+        ul.appendChild(li2)
+
+        document.body.appendChild(ul)
+
+        const titulo3 = document.createElement("h2")
+        titulo3.innerText = "¿Quien es deadpool?"
+        document.body.appendChild(titulo3)
+
+        const parrafo2 = document.createElement("p")
+        parrafo2.innerText = "deadpool tambien conosido como wade wilson, es un anti heroe de Marvel conosido por su humor sarcastico y sus abilidades de combate"
+        document.body.appendChild(parrafo2)
+
+        const imagen1 = document.createElement("img")
+        imagen1.src = "recursos/imagen1.jpg" 
+        imagen1.alt = "imagen"; 
+        imagen1.width = 300; 
+        imagen1.height = 200;
+        document.body.appendChild(imagen1)
+    </script>
+</body>
+
+</html>

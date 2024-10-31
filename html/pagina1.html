@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const titulo = document.createElement("h1")
+        titulo.innerText = "Frases memorables de deadpool"
+        document.body.appendChild(titulo)
+
+        const parrafo1 = document.createElement("p")
+        parrafo1.innerText = "deadpool es conosido por su ingenio rapido y su sentido del humor unico"
+        document.body.appendChild(parrafo1)
+
+        const titulo2 = document.createElement("h2")
+        titulo2.innerText = "citas famosas"
+        document.body.appendChild(titulo2)
+
+        const ul = document.createElement("ul")
+
+        const li1 = document.createElement("li")
+        li1.innerText = "maximo esfuerzo"
+        ul.appendChild(li1)
+
+        const li2 = document.createElement("li")
+        li2.innerText = "i am about to do you what limp bizkit dad to music the late 90"
+        ul.appendChild(li2)
+
+        const li3 = document.createElement("li")
+        li3.innerText = "you are probably thinking, this was a superhero movie but that guy in the suit just turned that other guy into a kebab "
+        ul.appendChild(li3)
+
+        document.body.appendChild(ul)
+
+        const parrafo2 = document.createElement("p")
+        parrafo2.innerText = "NOTA: cada una de esas frases captura perfectamente el espiritu de deadpool"
+        document.body.appendChild(parrafo2)
+
+        const titulo3 = document.createElement("h2")
+        titulo3.innerText = "video de las mejores esenas"
+        document.body.appendChild(titulo3)
+
+        const video = document.createElement('video');
+        video.src = "../recursos/videoplayback.mp4"
+        video.controls = true
+        video.width = 400  
+        video.height = 350
+
+        document.body.appendChild(video);
+    </script>
+</body>
+
+</html>
